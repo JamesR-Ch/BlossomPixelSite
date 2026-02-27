@@ -26,7 +26,7 @@ const notoSansThai = Noto_Sans_Thai({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://blossompixel.com'),
+  metadataBase: new URL('https://www.blossompixel.xyz'),
   title: 'Blossom Pixel | Photo Booth & Event Services Thailand',
   icons: {
     icon: '/images/logo/logo and favicon.png',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Blossom Pixel | Photo Booth & Event Services Thailand',
     description: 'Blossom Pixel — premium Photo Booth with instant printing for weddings and special events in Thailand.',
-    url: 'https://blossompixel.com',
+    url: 'https://www.blossompixel.xyz',
     siteName: 'Blossom Pixel',
     locale: 'th_TH',
     type: 'website',
@@ -75,9 +75,9 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'Blossom Pixel',
   description: 'บริการ Photo Booth พรีเมียม พร้อมปรินต์ทันที สำหรับงานแต่งงานและงานพิเศษ ครบทั้ง 360 Video Booth, Video Blessing และ LINE Sticker.',
-  url: 'https://blossompixel.com',
-  logo: 'https://blossompixel.com/images/logo/logo and favicon.png',
-  image: 'https://blossompixel.com/images/logo/Branding and colors.jpg',
+  url: 'https://www.blossompixel.xyz',
+  logo: 'https://www.blossompixel.xyz/images/logo/logo and favicon.png',
+  image: 'https://www.blossompixel.xyz/images/logo/Branding and colors.jpg',
   priceRange: '฿฿',
   areaServed: 'Thailand',
   hasOfferCatalog: {
