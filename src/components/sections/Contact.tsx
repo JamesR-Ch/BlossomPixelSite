@@ -131,7 +131,7 @@ export default function Contact() {
 
             {/* Logo */}
             <div className="mt-10 flex items-center gap-3">
-              <Image src="/images/logo/logo and favicon.png" alt="Blossom Pixel" width={48} height={48} className="object-contain" />
+              <Image src="/images/logo/logo and favicon.png" alt="Blossom Pixel" width={48} height={48} className="object-contain" unoptimized />
               <div>
                 <div className="font-display font-semibold text-[#A67C52] tracking-wider">BLOSSOM PIXEL</div>
                 <div className="text-xs text-[#4A3728]/60 font-body">Premium Photo & Video Experiences</div>

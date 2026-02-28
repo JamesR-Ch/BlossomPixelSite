@@ -47,7 +47,7 @@ export default function PageLoader() {
             ))}
             {/* Center logo */}
             <div className="absolute inset-3 rounded-full bg-[#FAF7F2] flex items-center justify-center">
-              <Image src="/images/logo/logo and favicon.png" alt="Loading..." width={40} height={40} className="object-contain" />
+              <Image src="/images/logo/logo and favicon.png" alt="Loading..." width={40} height={40} className="object-contain" unoptimized />
             </div>
           </div>
 

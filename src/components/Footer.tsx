@@ -53,7 +53,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="relative w-12 h-12 bg-cream rounded-xl p-1.5">
-                <Image src="/images/logo/logo and favicon.png" alt="Blossom Pixel" fill className="object-contain p-1" />
+                <Image src="/images/logo/logo and favicon.png" alt="Blossom Pixel" fill className="object-contain p-1" unoptimized />
               </div>
               <span className="font-display text-lg font-semibold text-tan-light tracking-wider">BLOSSOM PIXEL</span>
             </div>

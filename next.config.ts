@@ -6,7 +6,15 @@ const nextConfig: NextConfig = {
     root: path.resolve(__dirname),
   },
   images: {
-    formats: ['image/webp', 'image/avif'],
+    // WebP only — AVIF doubles transformation count (one per format per image)
+    formats: ['image/webp'],
+    // Cache transformed images for 31 days — avoids re-transforming on cache expiry
+    minimumCacheTTL: 2678400,
+    // Lock to one quality level — prevents arbitrary q= params creating extra cache variants
+    qualities: [75],
+    // Trim to breakpoints actually used in the layout
+    deviceSizes: [640, 1080, 1920],
+    imageSizes: [48, 96, 256],
   },
 }
 

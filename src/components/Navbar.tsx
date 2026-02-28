@@ -81,6 +81,7 @@ export default function Navbar() {
                   fill
                   className="object-contain transition-transform duration-300 group-hover:scale-105"
                   priority
+                  unoptimized
                 />
               </div>
               <span className="font-display text-lg md:text-xl font-semibold text-tan tracking-wider hidden sm:block">

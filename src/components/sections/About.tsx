@@ -66,6 +66,7 @@ export default function About() {
                 src="/images/logo/logo and favicon.png"
                 alt="Blossom Pixel"
                 fill
+                unoptimized
                 className="object-contain p-2"
               />
             </div>
