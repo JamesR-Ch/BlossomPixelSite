@@ -1,3 +1,6 @@
+// force-static: explicit guarantee — this page is always pre-rendered at build time
+export const dynamic = 'force-static'
+
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/sections/Hero'
 import About from '@/components/sections/About'
